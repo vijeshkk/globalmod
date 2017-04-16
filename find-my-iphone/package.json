@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "find-my-iphone",
+        "scope": null,
+        "escapedName": "find-my-iphone",
+        "name": "find-my-iphone",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/vijesh/node_modules/find-my-iphone"
+    ]
+  ],
+  "_from": "find-my-iphone@latest",
+  "_id": "find-my-iphone@1.1.1",
+  "_inCache": true,
+  "_location": "/find-my-iphone",
+  "_nodeVersion": "4.1.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/find-my-iphone-1.1.1.tgz_1473722018805_0.9856589757837355"
+  },
+  "_npmUser": {
+    "name": "mkruse",
+    "email": "github@mattkruse.com"
+  },
+  "_npmVersion": "2.14.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "find-my-iphone",
+    "scope": null,
+    "escapedName": "find-my-iphone",
+    "name": "find-my-iphone",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/find-my-iphone/-/find-my-iphone-1.1.1.tgz",
+  "_shasum": "ae16540522d60884784fbe70c95d8f1676015c38",
+  "_shrinkwrap": null,
+  "_spec": "find-my-iphone",
+  "_where": "/Users/vijesh/node_modules/find-my-iphone",
+  "author": {
+    "name": "Matt Kruse",
+    "email": "github@mattkruse.com",
+    "url": "http://mattkruse.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/matt-kruse/find-my-iphone/issues"
+  },
+  "dependencies": {
+    "request": "^2.57.0",
+    "tough-cookie": "^1.2.0"
+  },
+  "description": "Trigger Apple's Find My iPhone feature from code",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ae16540522d60884784fbe70c95d8f1676015c38",
+    "tarball": "https://registry.npmjs.org/find-my-iphone/-/find-my-iphone-1.1.1.tgz"
+  },
+  "gitHead": "5fbc7ece699384ed0c8f9ade51c82b2089fb69b0",
+  "homepage": "https://github.com/matt-kruse/find-my-iphone#readme",
+  "keywords": [
+    "icloud",
+    "iphone",
+    "find"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "mkruse",
+      "email": "github@mattkruse.com"
+    }
+  ],
+  "name": "find-my-iphone",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-kruse/find-my-iphone.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.1"
+}

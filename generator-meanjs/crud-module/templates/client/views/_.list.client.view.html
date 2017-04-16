@@ -1,0 +1,22 @@
+<section>
+  <div class="page-header">
+    <h1><%= humanizedPluralName %></h1>
+  </div>
+  <div class="list-group">
+    <a ng-repeat="<%= slugifiedSingularName %> in vm.<%= camelizedPluralName %>"
+       ui-sref="<%= camelizedPluralName %>.view({ <%= slugifiedSingularName %>Id: <%= slugifiedSingularName %>._id })"
+       class="list-group-item">
+      <small class="list-group-item-text">
+        Posted on
+        <span ng-bind="<%= camelizedSingularName %>.created | date:'mediumDate'"></span>
+        by
+        <span ng-if="<%= camelizedSingularName %>.user" ng-bind="<%= camelizedSingularName %>.user.displayName"></span>
+        <span ng-if="!<%= camelizedSingularName %>.user">Deleted User</span>
+      </small>
+      <h4 class="list-group-item-heading" ng-bind="<%= slugifiedSingularName %>.name"></h4>
+    </a>
+  </div>
+  <div class="alert alert-warning text-center" ng-if="vm.<%= camelizedPluralName %>.$resolved && !vm.<%= camelizedPluralName %>.length">
+    No <%= humanizedPluralName %> yet, why don't you <a ui-sref="<%= camelizedPluralName %>.create">create one</a>?
+  </div>
+</section>
